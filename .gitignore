@@ -51,3 +51,14 @@ coverage/
 *.pid
 *.seed
 *.pid.lock
+
+# dependencies
+.pnpm-store/
+
+# environment files
+.env/
+.env.*
+*.tmp
+
+# misc
+*.local
