@@ -1,0 +1,41 @@
+{
+  "name": "@my/common",
+  "version": "1.0.23",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build-js": "tsc && tsc-alias",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo .turbo",
+    "clean-all": "rm -rf dist tsconfig.tsbuildinfo .turbo node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "amqplib": "^0.10.5",
+    "inversify": "^6.2.1",
+    "ioredis": "^5.5.0",
+    "redis": "^4.7.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.6",
+    "@types/node": "^22.10.7",
+    "amqplib": "^0.10.5",
+    "inversify": "^6.2.1",
+    "ioredis": "^5.5.0",
+    "redis": "^4.7.0",
+    "reflect-metadata": "^0.2.2",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.7.3",
+    "vitest": "^3.2.4"
+  }
+}

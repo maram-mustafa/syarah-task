@@ -1,0 +1,29 @@
+{
+  "name": "@my/elasticsearch",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build-js": "tsc && tsc-alias",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo .turbo",
+    "clean-all": "rm -rf dist tsconfig.tsbuildinfo .turbo node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Elasticsearch manager package for Syarah platform",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.16.2",
+    "inversify": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
