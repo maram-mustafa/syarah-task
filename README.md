@@ -150,7 +150,7 @@ All packages share similar build commands. Navigate to any package directory (`p
 - **Language:** TypeScript
 - **Database:** MySQL (via Sequelize)
 - **Search:** Elasticsearch
-- **Message Queue:** RabbitMQ 
+- **Message Queue:** RabbitMQ
 - **Caching:** Redis, ioredis
 - **Messaging Services:**  SendGrid (Email)
 - **DI Container:** Inversify
