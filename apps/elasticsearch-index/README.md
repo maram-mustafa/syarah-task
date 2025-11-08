@@ -195,7 +195,7 @@ A production-grade microservice for managing product data synchronization betwee
 │ 6. Move to DLQ after max retries                                │
 └─────────────────────────────────────────────────────────────────┘
 ```
-
+![img.png](elasticsearch-architecture.png)
 ### Ensuring Real-time Synchronization
 
 **Guarantees:**
@@ -503,3 +503,5 @@ curl -X DELETE http://localhost:3000/api/v1/product/1
 | **Cache** | Redis                |
 | **ORM** | Sequelize            |
 | **DI Container** | Inversify            |
+
+

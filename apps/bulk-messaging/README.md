@@ -152,7 +152,7 @@ A production-grade microservice for managing large-scale marketing campaigns wit
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
-
+![img.png](bulk-messaging-architecture.png)
 ---
 
 ## Configuration
